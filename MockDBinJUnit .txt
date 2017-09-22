@@ -1,0 +1,2 @@
+For the Database testing - For pure Unit testing you would use a Stub or a Mock type of Test Double to mock out the DB connection and its responses.  Mockcan be done with Mockito, JMock.For slightly looser definition of unit testing, you could use a Fake Test Double. For some particular case, this would be an in memory database such as HSQL. This is a very popular way of 'unit' testing your database layer.
+For the cache testing - Stub style of Test Double is likely to be used here - depending on how complex the cache API is.
